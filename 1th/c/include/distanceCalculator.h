@@ -22,7 +22,8 @@ int calculateTotalDistance(const int *leftArray, const int *rightArray,
 // - rightLength: Number of elements in the right array
 // Returns:
 // - Similarity score as a long
-long calculateSimilarity(const int *leftArray, size_t leftLength,
+long calculateSimilarity(const int *leftArray, size_t leftLength, 
                          const int *rightArray, size_t rightLength);
 
 #endif // DISTANCE_CALCULATOR_H
+
